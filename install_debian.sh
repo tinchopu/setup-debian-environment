@@ -3,6 +3,7 @@
 sudo apt update
 sudo apt install neovim zsh tldr fzf git wget git -y
 sudo apt remove vim -y
+sudo apt autoremove -y
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 wget https://gitlab.anton-puetz.com/tincho/setup-debian-environment/-/raw/master/.p10k.zsh -O .p10k.zsh
