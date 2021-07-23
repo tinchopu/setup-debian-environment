@@ -1,6 +1,7 @@
 #!/bin/bash
 
-set -euo pipefail
+set -eu
+set -o pipefail
 
 sudo apt update && sudo apt upgrade
 sudo apt install neovim zsh tldr fzf git wget git -y
