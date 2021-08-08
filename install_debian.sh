@@ -14,4 +14,3 @@ wget https://gitlab.anton-puetz.com/tincho/setup-debian-environment/-/raw/master
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 curl https://getcroc.schollz.com | bash
-git clone https://github.com/itchyny/lightline.vim ~/.local/share/nvim/site/pack/plugins/start/lightline
