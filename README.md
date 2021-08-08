@@ -1,4 +1,4 @@
-#🚀💻setup-debian-environment
+# 🚀💻setup-debian-environment
 
 ## Installation steps
 
