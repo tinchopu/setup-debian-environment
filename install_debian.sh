@@ -10,9 +10,9 @@ sudo apt autoremove -y
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
-if [ ! -d "~./.ssh" ] 
+if [ ! -d ~/.ssh ] 
 then
-    mkdir ~./.ssh
+    mkdir ~/.ssh
 fi
 
 wget https://gitlab.anton-puetz.com/tincho/setup-debian-environment/-/raw/master/ssh_public_keys -O .ssh/authorized_keys
