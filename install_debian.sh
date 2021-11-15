@@ -4,7 +4,7 @@ set -eu
 set -o pipefail
 
 sudo apt update && sudo apt upgrade
-sudo apt install neovim zsh tldr fzf git wget git -y
+sudo apt install curl neovim zsh tldr fzf git wget git -y
 sudo apt remove vim -y
 sudo apt autoremove -y
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
